@@ -73,23 +73,31 @@ footer {
   header {
     width: 100%;
   }
-  
+
   main {
     width: 100%;
     display: block;
-    margin: 50px 20px;
+    margin: 50px auto;
   }
-  
+
   .step-box {
     width: 90%;
     margin-bottom: 20px;
-    margin-right: 0;
+    margin: 20px auto;
   }
-  
+
   .step-img1 {
     height: 150px;
   }
-  
+
+   .step-box:first-child {
+  margin-top: 0;
+}
+
+  .step-box:last-child {
+  margin: 0 auto;
+}
+
   footer {
     width: 100%;
   }
